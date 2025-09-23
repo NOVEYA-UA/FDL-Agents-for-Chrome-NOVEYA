@@ -1,0 +1,3 @@
+Scripts notes:
+- For now JS files are included; TS reference is provided (background/ai.ts).
+- If you wish to bundle, use esbuild/tsup; ensure MV3 service worker stays as a single JS module.
