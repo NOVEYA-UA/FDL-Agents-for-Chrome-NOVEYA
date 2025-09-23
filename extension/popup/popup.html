@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Σ‑FDL</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; padding: 10px; width: 280px; }
+      button { padding: 6px 10px; border: 1px solid #d0d7de; background:#fff; border-radius: 8px; cursor:pointer; }
+      .row{ display:flex; gap:8px; margin:6px 0; }
+      small{ color:#555; }
+    </style>
+  </head>
+  <body>
+    <h3>Σ‑FDL Agents</h3>
+    <div class="row">
+      <button id="run-fdl">Analyze Page</button>
+      <button id="toggle-hybrid">Hybrid: Off</button>
+    </div>
+    <small>On‑device by default. Hybrid escalates heavy pages (opt‑in).</small>
+    <script src="popup.js"></script>
+  </body>
+</html>
